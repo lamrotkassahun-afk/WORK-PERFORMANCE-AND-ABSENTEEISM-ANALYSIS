@@ -20,33 +20,6 @@ Data Hygiene Optimizations: Data quality audits resolved missing values in Gende
 
 Project Repository Architecture
 ![alt text](image-1.png)
-WORK-PERFORMANCE-AND-ABSENTEEISM-ANALYSIS/
-│
-├── data/
-│   ├── raw/                 # Contains raw Excel dataset (Mega_Supermart_HR_Dataset_2025.xlsx)
-│   └── processed/           # Processed & cleaned exports (CSV/Pickle)
-│
-├── notebooks/
-│   └── Lamrot_Kassahun_Workforce_Analysis.ipynb  # Primary Jupyter Notebook containing data wrangling & EDA
-│
-├── outputs/
-│   ├── figures/             # High-resolution generated charts (PNG, 300 DPI)
-│   │   ├── department_distribution.png
-│   │   ├── job_title_distribution.png
-│   │   ├── age_histogram.png
-│   │   ├── tenure_histogram.png
-│   │   ├── cleaned_department_absenteeism.png
-│   │   ├── absenteeism_by_department.png
-│   │   └── correlation_heatmap.png
-│   └── reports/             # Final executive briefing deliverables & deck
-│       ├── Mega_Supermart_Workforce_Analysis_Report.md
-│       └── Mega_Supermart_Workforce_Analysis_Deck.html
-│
-├── venv/                    # Python virtual environment (ignored in git)
-├── .gitignore               # Git exclusion rules for large datasets & virtual environments
-└── README.md                # Project documentation & execution guide
-
-
 Installation & Local Execution Guide
 
 Follow these steps to set up the environment and run the analysis locally:
