@@ -19,7 +19,7 @@ Imminent Retirement & Skill Continuity Risk: A pool of 52 employees (4.34% of st
 Data Hygiene Optimizations: Data quality audits resolved missing values in Gender and absenteeism metrics while unifiying string casing issues (e.g., merging split departmental categories such as sales vs. Sales).
 
 Project Repository Architecture
-
+![alt text](image-1.png)
 WORK-PERFORMANCE-AND-ABSENTEEISM-ANALYSIS/
 │
 ├── data/
